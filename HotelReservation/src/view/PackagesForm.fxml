@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DisplacementMap?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.FloatMap?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="packagesContext" prefHeight="698.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PackagesFormController">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="1.0" prefHeight="698.0" prefWidth="780.0" style="-fx-background-color: white;">
+         <children>
+            <JFXButton buttonType="RAISED" layoutX="690.0" layoutY="645.0" onAction="#openRoomsForm" prefHeight="31.0" prefWidth="66.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Next">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="600.0" layoutY="645.0" onAction="#backToHomePageOnAction" prefHeight="31.0" prefWidth="66.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Back">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="133.0" onAction="#backToHomePageOnAction" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Home">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="217.0" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(96, 136, 158, 1);" text="Packages">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="301.0" onAction="#openRoomsForm" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Rooms">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="385.0" onAction="#openMealsForm" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Meals">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="469.0" onAction="#openGalleryForm" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Gallery">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/ocean-wave-icon-14.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="47.0" layoutY="14.0" text="BlueOcean">
+               <font>
+                  <Font name="Bell MT Italic" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="18.0" fitWidth="16.0" layoutX="570.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="594.0" layoutY="9.0" text="+94 0118965325 ">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="31.0" fitWidth="27.0" layoutX="565.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/email-message-icon-vector-line-open-mail-symbol-email-message-icon-vector-line-open-mail-symbol-web-icon-113716261.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="594.0" layoutY="30.0" text="blueocean@gmail.com">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Label layoutX="335.0" layoutY="132.0" prefHeight="31.0" prefWidth="16.0" text="|" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="37.0" fitWidth="35.0" layoutX="561.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/98713690-pin-map-icon-vector-line-location-symbol-.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="592.0" layoutY="61.0" text="No:1/4,Navinna,Maharagama">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+            <Separator layoutX="7.0" layoutY="87.0" prefHeight="0.0" prefWidth="761.0" />
+            <Label layoutX="344.0" layoutY="99.0" prefHeight="21.0" prefWidth="93.0" text="PACKAGES" underline="true">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="166.0" fitWidth="256.0" layoutY="167.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/HI362283299.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="166.0" fitWidth="270.0" layoutX="256.0" layoutY="167.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/room-service.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="166.0" fitWidth="249.0" layoutX="528.0" layoutY="167.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/accommodation.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="53.0" layoutY="127.0" prefHeight="53.0" prefWidth="150.0" style="-fx-background-color: rgba(249, 181, 7, 0.94);" text="    7 - Days Package">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <DisplacementMap>
+                     <input>
+                        <Glow />
+                     </input>
+                     <mapData>
+                        <FloatMap />
+                     </mapData>
+                  </DisplacementMap>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="-2.0" layoutY="333.0" prefHeight="44.0" prefWidth="780.0" style="-fx-background-color: rgba(46, 188, 23, 1);" text="                                             OFFER VALID FOR BOOKING MADE UNTIL 31 AUGUST 2021">
+               <font>
+                  <Font name="Baskerville Old Face" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="323.0" layoutY="127.0" prefHeight="53.0" prefWidth="150.0" style="-fx-background-color: rgba(249, 181, 7, 0.94);" text="    10 - Days Package">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <DisplacementMap>
+                     <input>
+                        <Glow />
+                     </input>
+                     <mapData>
+                        <FloatMap />
+                     </mapData>
+                  </DisplacementMap>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="575.0" layoutY="127.0" prefHeight="53.0" prefWidth="150.0" style="-fx-background-color: rgba(249, 181, 7, 0.94);" text="    14 - Days Package">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <effect>
+                  <DisplacementMap>
+                     <input>
+                        <Glow />
+                     </input>
+                     <mapData>
+                        <FloatMap />
+                     </mapData>
+                  </DisplacementMap>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="53.0" layoutY="399.0" text="(7-8 nights)">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="323.0" layoutY="399.0" text="(10-11 nights)">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="583.0" layoutY="399.0" text="(14-15 nights)">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="74.0" layoutY="425.0" text="Rs. per person">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="612.0" layoutY="425.0" text="Rs. per person">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="351.0" layoutY="425.0" text="Rs. per person">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="427.0" text="20,000" textFill="#e80808" />
+            <Label layoutX="301.0" layoutY="427.0" text="25,000" textFill="#e80808" />
+            <Label layoutX="564.0" layoutY="427.0" text="30,000" textFill="#e80808" />
+            <Label cache="true" layoutX="7.0" layoutY="450.0" text="Family-discount for quilified guest">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label cache="true" layoutX="280.0" layoutY="450.0" text="Family-discount for quilified guest">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label cache="true" layoutX="547.0" layoutY="450.0" text="Family-discount for quilified guest">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="295.0" layoutY="505.0" text="Hotel Services" underline="true">
+               <font>
+                  <Font name="Times New Roman Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="545.0" text="Nightly accommodation" textFill="#cf117f">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+            <Label layoutX="290.0" layoutY="545.0" text="Full board" textAlignment="JUSTIFY" textFill="#cf117f" />
+            <Label layoutX="31.0" layoutY="566.0" text="Complimentary fast WiFi" textAlignment="JUSTIFY" textFill="#cf117f" />
+            <Label layoutX="442.0" layoutY="545.0" text="Room cleaning service on designated days" textFill="#cf117f" />
+            <Label layoutX="289.0" layoutY="566.0" text="LED TV" textAlignment="JUSTIFY" textFill="#cf117f" />
+            <Label layoutX="443.0" layoutY="566.0" text="Relaxing area of rooftop swimming pool area" textAlignment="JUSTIFY" textFill="#cf117f" />
+            <Label layoutX="155.0" layoutY="608.0" text="10% discout on room service &amp; laundry service " textAlignment="JUSTIFY" textFill="#cf117f" />
+            <Separator layoutX="66.0" layoutY="492.0" prefHeight="3.0" prefWidth="643.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

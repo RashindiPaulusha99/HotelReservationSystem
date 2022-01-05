@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="homePageContext" prefHeight="698.0" prefWidth="780.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomePageFormController">
+   <children>
+      <ImageView fitHeight="291.0" fitWidth="785.0" layoutX="-1.0" layoutY="86.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/561875_15012712210024857147.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="690.0" layoutY="645.0" onAction="#openPackagesForm" prefHeight="31.0" prefWidth="66.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Next">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="600.0" layoutY="645.0" onAction="#backToLoginOnAction" prefHeight="31.0" prefWidth="66.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="133.0" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(96, 136, 158, 1);" text="Home">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="217.0" onAction="#openPackagesForm" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Packages">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="301.0" onAction="#openRoomsForm" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Rooms">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="385.0" onAction="#openMealsForm" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Meals">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="469.0" onAction="#openGalleryForm" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Gallery">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+      <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/ocean-wave-icon-14.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="47.0" layoutY="14.0" text="BlueOcean">
+         <font>
+            <Font name="Bell MT Italic" size="15.0" />
+         </font></Label>
+      <ImageView fitHeight="18.0" fitWidth="16.0" layoutX="570.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="594.0" layoutY="9.0" text="+94 0118965325 ">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="31.0" fitWidth="27.0" layoutX="565.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/email-message-icon-vector-line-open-mail-symbol-email-message-icon-vector-line-open-mail-symbol-web-icon-113716261.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="594.0" layoutY="30.0" text="blueocean@gmail.com">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="86.0" prefHeight="54.0" prefWidth="447.0" text="Welcome To Hotel Blue Ocean" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Sitka Banner Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="335.0" layoutY="132.0" prefHeight="31.0" prefWidth="16.0" text="|" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="185.0" text="~Your Perfect Vacation Is Waiting~" textFill="WHITE">
+         <font>
+            <Font name="Script MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="233.0" text="Book Your Perfect Stay" textFill="WHITE">
+         <font>
+            <Font name="Palatino Linotype" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="569.0" layoutY="273.0" onAction="#openRoomSelectionForm" prefHeight="63.0" prefWidth="162.0" style="-fx-background-color: rgba(255, 187, 13, 1);" text="Check Availability">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </JFXButton>
+      <JFXComboBox layoutX="134.0" layoutY="273.0" prefHeight="63.0" prefWidth="102.0" promptText="Check Out" />
+      <Label layoutY="376.0" prefHeight="63.0" prefWidth="785.0" style="-fx-background-color: rgba(9, 209, 209, 1);" text="    Primium Rooms       Optional Meals          AC          free  Wi-Fi          Room Service           TV          24*7 Support          " textFill="WHITE" />
+      <Label layoutX="58.0" layoutY="461.0" prefHeight="21.0" prefWidth="127.0" text="HOTEL OVERVIEW">
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+      <ImageView fitHeight="37.0" fitWidth="35.0" layoutX="561.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/98713690-pin-map-icon-vector-line-location-symbol-.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="592.0" layoutY="61.0" text="No:1/4,Navinna,Maharagama">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Separator layoutX="47.0" layoutY="491.0" prefHeight="0.0" prefWidth="379.0" />
+      <ImageView fitHeight="128.0" fitWidth="184.0" layoutX="460.0" layoutY="439.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/rooms-family.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="98.0" fitWidth="152.0" layoutX="630.0" layoutY="529.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/spa3.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="30.0" layoutY="503.0" prefHeight="21.0" prefWidth="416.0" text="The Hotel Blue Ocean takes great pride in ensuring our guests" />
+      <Label layoutX="30.0" layoutY="519.0" prefHeight="21.0" prefWidth="416.0" text="enjoy the most relaxing and comfortable stay. All areas of the" />
+      <Label layoutX="30.0" layoutY="540.0" prefHeight="21.0" prefWidth="416.0" text="hotel, from the rooms to the exquisitely landscaped gardens" />
+      <Label layoutX="30.0" layoutY="557.0" prefHeight="21.0" prefWidth="423.0" text="have been totally upgraded and refurbished. In addition guests" />
+      <Label layoutX="30.0" layoutY="578.0" prefHeight="21.0" prefWidth="416.0" text="staying at Hotel Blue Ocean is offered a myriad of facilities " />
+      <Label layoutX="30.0" layoutY="599.0" prefHeight="21.0" prefWidth="416.0" text="and activities in which no other hotel an match." />
+      <JFXTextField layoutX="555.0" layoutY="87.0" prefHeight="31.0" prefWidth="228.0" style="-fx-background-color: white;" text="Search" />
+      <JFXTextField fx:id="txtCheckIn" labelFloat="true" layoutX="26.0" layoutY="274.0" onAction="#moveToCheckOut" prefHeight="63.0" prefWidth="102.0" promptText="Check In" style="-fx-background-color: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXTextField>
+      <JFXTextField fx:id="txtCheckOut" labelFloat="true" layoutX="134.0" layoutY="273.0" onAction="#moveToRooms" prefHeight="63.0" prefWidth="102.0" promptText="Check Out" style="-fx-background-color: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXTextField>
+      <JFXTextField fx:id="txtRooms" labelFloat="true" layoutX="242.0" layoutY="273.0" onAction="#moveToAdults" prefHeight="63.0" prefWidth="102.0" promptText="Rooms" style="-fx-background-color: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXTextField>
+      <JFXTextField fx:id="txtAdults" labelFloat="true" layoutX="351.0" layoutY="273.0" onAction="#moveToChildren" prefHeight="63.0" prefWidth="102.0" promptText="Adults" style="-fx-background-color: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXTextField>
+      <JFXTextField fx:id="txtChildren" labelFloat="true" layoutX="460.0" layoutY="274.0" prefHeight="63.0" prefWidth="102.0" promptText="Children" style="-fx-background-color: white;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXTextField>
+   </children>
+</AnchorPane>

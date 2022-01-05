@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mealsContext" prefHeight="698.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealsFormController">
+   <children>
+      <AnchorPane layoutY="1.0" prefHeight="698.0" prefWidth="780.0">
+         <children>
+            <AnchorPane layoutX="1.0" prefHeight="708.0" prefWidth="795.0" style="-fx-background-color: white;">
+               <children>
+                  <JFXButton buttonType="RAISED" layoutX="690.0" layoutY="645.0" onAction="#openGalleryForm" prefHeight="31.0" prefWidth="66.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Next">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="600.0" layoutY="645.0" onAction="#backToRoomsOnAction" prefHeight="31.0" prefWidth="66.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Back">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="133.0" onAction="#backToHomePageOnAction" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Home">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="217.0" onAction="#backToPackagesOnAction" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Packages">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="301.0" onAction="#backToRoomsOnAction" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Rooms">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="385.0" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(96, 136, 158, 1);" text="Meals">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="469.0" onAction="#openGalleryForm" prefHeight="87.0" prefWidth="84.0" style="-fx-background-color: rgba(34, 163, 236, 1);" text="Gallery">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </JFXButton>
+                  <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/ocean-wave-icon-14.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="47.0" layoutY="14.0" text="BlueOcean">
+                     <font>
+                        <Font name="Bell MT Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="18.0" fitWidth="16.0" layoutX="570.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/images.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="594.0" layoutY="9.0" text="+94 0118965325 ">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="31.0" fitWidth="27.0" layoutX="565.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/email-message-icon-vector-line-open-mail-symbol-email-message-icon-vector-line-open-mail-symbol-web-icon-113716261.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="594.0" layoutY="30.0" text="blueocean@gmail.com">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="149.0" layoutY="86.0" prefHeight="54.0" prefWidth="447.0" text="Welcome To Hotel Blue Ocean" textFill="WHITE" underline="true">
+                     <font>
+                        <Font name="Sitka Banner Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="335.0" layoutY="132.0" prefHeight="31.0" prefWidth="16.0" text="|" textFill="WHITE">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="163.0" layoutY="185.0" text="~Your Perfect Vacation Is Waiting~" textFill="WHITE">
+                     <font>
+                        <Font name="Script MT Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="71.0" layoutY="233.0" text="Book Your Perfect Stay" textFill="WHITE">
+                     <font>
+                        <Font name="Palatino Linotype" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="37.0" fitWidth="35.0" layoutX="561.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/98713690-pin-map-icon-vector-line-location-symbol-.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="592.0" layoutY="61.0" text="No:1/4,Navinna,Maharagama">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="348.0" layoutY="103.0" text="MEAL PLAN" underline="true">
+                     <font>
+                        <Font name="Bell MT Bold" size="17.0" />
+                     </font>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+                  <Separator layoutX="520.0" layoutY="273.0" orientation="VERTICAL" prefHeight="375.0" prefWidth="6.0" />
+                  <Separator layoutX="256.0" layoutY="283.0" orientation="VERTICAL" prefHeight="365.0" prefWidth="6.0" />
+                  <Separator layoutX="7.0" layoutY="86.0" prefHeight="0.0" prefWidth="778.0" />
+                  <Label layoutX="40.0" layoutY="138.0" text="Meal Types" underline="true">
+                     <font>
+                        <Font name="Book Antiqua" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="256.0" layoutY="138.0" text="Meal Plan Types" underline="true">
+                     <font>
+                        <Font name="Book Antiqua" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="175.0" text="LOCAL MEALS" textFill="#f42972">
+                     <font>
+                        <Font size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="191.0" text="CHINESE MEALS" textFill="#f42972">
+                     <font>
+                        <Font size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="206.0" text="FRENCHMEALS" textFill="#f42972">
+                     <font>
+                        <Font size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="206.0" layoutY="173.0" prefHeight="21.0" prefWidth="167.0" text="American Meal Plan:" textFill="#1849f8">
+                     <font>
+                        <Font size="13.0" />
+                     </font></Label>
+                  <Label layoutX="206.0" layoutY="189.0" prefHeight="21.0" prefWidth="167.0" text="Modified American Plan:" textFill="#1849f8">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="206.0" layoutY="204.0" prefHeight="21.0" prefWidth="167.0" text="Continental Plan:" textFill="#1849f8">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="206.0" layoutY="223.0" prefHeight="21.0" prefWidth="167.0" text="European Plan: " textFill="#1849f8">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="327.0" layoutY="173.0" prefHeight="21.0" prefWidth="439.0" text="Room Rent+ Buffet Breakfast+ Buffet Lunch+ Buffet Dinner">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="351.0" layoutY="189.0" prefHeight="21.0" prefWidth="439.0" text="Room Rent+ Buffet Breakfast+ (Buffet Lunch/Buffet Dinner)">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="307.0" layoutY="204.0" prefHeight="21.0" prefWidth="439.0" text="Room Rent+ Buffet Breakfast only">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="301.0" layoutY="223.0" prefHeight="21.0" prefWidth="439.0" text="Room Rent only">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="62.0" layoutY="263.0" text="LOCAL MEALS" textFill="#f9b507">
+                     <font>
+                        <Font name="Britannic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="338.0" layoutY="263.0" text="CHINESE MEALS" textFill="#f9b507">
+                     <font>
+                        <Font name="Britannic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="602.0" layoutY="263.0" text="FRENCH MEALS" textFill="#f9b507">
+                     <font>
+                        <Font name="Britannic Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="16.0" layoutY="293.0" text="Breakfirst" />
+                  <Label layoutX="270.0" layoutY="293.0" text="Breakfirst" />
+                  <Label layoutX="530.0" layoutY="293.0" text="Breakfirst" />
+                  <Label layoutX="19.0" layoutY="407.0" text="Lunch" />
+                  <Label layoutX="533.0" layoutY="407.0" text="Lunch" />
+                  <Label layoutX="270.0" layoutY="407.0" text="Lunch" />
+                  <Label layoutX="19.0" layoutY="512.0" text="Dinner" />
+                  <Label layoutX="531.0" layoutY="512.0" text="Dinner" />
+                  <Label layoutX="268.0" layoutY="512.0" text="Dinner" />
+                  <ImageView fitHeight="69.0" fitWidth="66.0" layoutX="6.0" layoutY="322.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/baa191a356aa82ebdb3f0c5e5cb8c1fa.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="74.0" layoutY="322.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/21952545_10155674190633698_1016293131_o-1-1.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="62.0" layoutX="5.0" layoutY="431.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/9ed82db1432cf0432f2c6fa707d49960.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="67.0" layoutY="431.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/Sri-Lankan-meal-plan-2-5230-e1520361820955.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="87.0" layoutX="143.0" layoutY="431.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/asian-restaurant-balapitiya.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="66.0" layoutX="3.0" layoutY="541.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/maxresdefault.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="69.0" layoutY="541.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/mulranny-park-hotel-new-food-24.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="268.0" layoutY="322.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/4-asian-breakfast-four-seasons-hk-kathy-yl-chan.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="341.0" layoutY="322.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/9-asian-breakfast-mo-tokyo-kathy-yl-chan.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="81.0" layoutX="414.0" layoutY="322.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/47e328c9c4584a2092143cbb_cut_800x500_264.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="270.0" layoutY="431.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/64029527.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="76.0" fitWidth="76.0" layoutX="340.0" layoutY="427.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/beans-close-up-cuisine-1640771-1024x768.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="81.0" layoutX="416.0" layoutY="431.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/ef7e6ef203534f0fa58fb0f4_cut_800x500_9.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="76.0" fitWidth="81.0" layoutX="265.0" layoutY="541.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/_116297887_whatsappimage2020-12-30at9.00.17am.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="344.0" layoutY="545.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/merlin_166104477_1c101406-3b5c-4565-b510-90a4c11a3eb9-superJumbo.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="81.0" layoutX="421.0" layoutY="545.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/hot-dog-stand.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="538.0" layoutY="323.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/ccd128195ccd6d9ccf35d2563a958268.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="81.0" layoutX="680.0" layoutY="322.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/k_archive_ad813d98c6f2adc683f6c481516eadeee83076ff.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="535.0" layoutY="431.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/102_Belrose_Nov2020.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="612.0" layoutY="431.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/delphines-day.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="688.0" layoutY="431.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/vaninas-day.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="538.0" layoutY="545.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/Shrimp-croquette-belgium.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="691.0" layoutY="545.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/df51029afbfd5e8f048b63b9258968f1.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="76.0" fitWidth="81.0" layoutX="151.0" layoutY="319.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/content10482.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="87.0" layoutX="143.0" layoutY="541.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/srilanka_colombo_kottu1.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="612.0" layoutY="545.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/French-onion-soup.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="76.0" layoutX="606.0" layoutY="323.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/702291eb1a1895e3bc3d124cc5ae4da9.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
