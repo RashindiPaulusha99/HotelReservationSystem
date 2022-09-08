@@ -62,3 +62,6 @@ Below you can see the languages,frameworks architectures, tools I used  the proj
 * IntelliJ IDEA
 * Scene Builder
 * Figma
+
+## Links
+* **Figma Link-** https://www.figma.com/file/GldRjNY9kXLNNBk3gav4ZP/HotelReservation?node-id=0%3A1
